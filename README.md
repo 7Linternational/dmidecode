@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/dselans/dmidecode.svg?branch=master)](https://travis-ci.org/dselans/dmidecode)
-
 dmidecode
 =========
 `dmidecode` is a Go library that parses the output of the `dmidecode` command
@@ -11,7 +9,7 @@ In addition, the library exposes a couple of convenience methods for quicker rec
 
 ```go
 import (
-    dmidecode "github.com/dselans/dmidecode"
+    dmidecode "github.com/7Linternational/dmidecode"
 )
 
 dmi := dmidecode.New()
